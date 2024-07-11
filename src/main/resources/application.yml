@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: msc-user
+  datasource:
+    url: jdbc:postgresql://postgres:5432/msc-user
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
